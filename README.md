@@ -42,27 +42,4 @@ Each folder contains specific files that must be executed in a particular order 
 
 ## Part 2: PrivCo Data
 
-### Code Execution Order:
-1. `EDA_privco.ipynb`
-2. `feature_eng_privco.ipynb`
-3. `model_training_privco.ipynb`
-
-### Files:
-
-- `EDA_cleaned_PrivCo_data.pkl`  
-  A serialized output in PKL format, produced by `EDA_privco.ipynb`.
-
-- `EDA_privco.ipynb`  
-  An exploratory data analysis (EDA) notebook that processes raw PrivCo data to produce `EDA_cleaned_PrivCo_data.pkl`.
-
-- `FE_cleaned_PrivCo_data.pkl`  
-  A serialized output in PKL format, produced by `feature_eng_privco.ipynb`.
-
-- `feature_eng_privco.ipynb`  
-  A feature engineering notebook that processes EDA-cleaned data to produce `FE_cleaned_PrivCo_data.pkl`.
-
-- `model_training_privco.ipynb`  
-  A notebook that uses `FE_cleaned_PrivCo_data.pkl` to train machine learning models.
-
-- `raw_PrivCo_data.csv`  
-  A CSV file containing the raw PrivCo data that is the input to `EDA_privco.ipynb`.
+### Part 2 will be uploaded soon.
